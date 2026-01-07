@@ -7,7 +7,7 @@
 <p align="center">
   📄 <a href="http://arxiv.org/abs/2502.09560"><strong>Paper</strong></a> |  
   🤗 <a href="https://huggingface.co/datasets/ParadiseYu/TSRBench"><strong>Dataset</strong></a> |
-  🏠 <a href="https://embodiedbench.github.io"><strong>Project Website</strong></a>
+  🏠 <a href="https://tsrbench.github.io/"><strong>Project Website</strong></a>
 </p>
 
 <p align="center">
