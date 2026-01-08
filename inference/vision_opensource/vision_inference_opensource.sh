@@ -4,18 +4,18 @@ Qwen/Qwen3-VL-32B-Instruct
 )
 
 DATASETS=(
-  /home/fangxu/TSRBench/dataset/perception/perception.jsonl
-  /home/fangxu/TSRBench/dataset/reasoning/temporal_relation_reasoning/temporal_relation_reasoning.jsonl
-  /home/fangxu/TSRBench/dataset/reasoning/inductive_reasoning/inductive_reasoning.jsonl
-  /home/fangxu/TSRBench/dataset/reasoning/math_reasoning/math_reasoning.jsonl
-  /home/fangxu/TSRBench/dataset/reasoning/causal_reasoning/causal_reasoning.jsonl
-  /home/fangxu/TSRBench/dataset/reasoning/etiological_reasoning/etiological_reasoning.jsonl
-  /home/fangxu/TSRBench/dataset/reasoning/abductive_reasoning/abductive_reasoning.jsonl
-  /home/fangxu/TSRBench/dataset/reasoning/deductive_reasoning/deductive_reasoning.jsonl
-  /home/fangxu/TSRBench/dataset/prediction/time_series_forecasting/time_series_forecasting.jsonl
-  /home/fangxu/TSRBench/dataset/prediction/event_forecast/event_forecast.jsonl
-  /home/fangxu/TSRBench/dataset/decision/pattern_decision/pattern_decision.jsonl
-  /home/fangxu/TSRBench/dataset/decision/quantitative_decision/quantitative_decision.jsonl
+  ./dataset/perception/perception.jsonl
+  ./dataset/reasoning/temporal_relation_reasoning/temporal_relation_reasoning.jsonl
+  ./dataset/reasoning/inductive_reasoning/inductive_reasoning.jsonl
+  ./dataset/reasoning/numerical_reasoning/numerical_reasoning.jsonl
+  ./dataset/reasoning/causal_reasoning/causal_reasoning.jsonl
+  ./dataset/reasoning/etiological_reasoning/etiological_reasoning.jsonl
+  ./dataset/reasoning/abductive_reasoning/abductive_reasoning.jsonl
+  ./dataset/reasoning/deductive_reasoning/deductive_reasoning.jsonl
+  ./dataset/prediction/time_series_forecasting.jsonl
+  ./dataset/prediction/event_prediction.jsonl
+  ./dataset/decision/qualitative_decision.jsonl
+  ./dataset/decision/quantitative_decision.jsonl
 )
 
 WORKDIR="/home/fangxu/TSRBench/evaluation"
