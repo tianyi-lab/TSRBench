@@ -63,9 +63,9 @@ def ask_gpt_api_with_timeseries(timeseries: np.ndarray, question: str) -> str:
     prompt = prompt_list[0]
     for ts in range(len(timeseries)):
         if not isinstance(timeseries[0][0], float):
-            cur_ts = ','.join([f"{i}" for i in timeseries[ts]])
+            cur_ts = ','.join([f"{i}" for i in timeseries[ts][::])
         else:
-            cur_ts = ','.join([f"{i:.2f}" for i in timeseries[ts]])
+            cur_ts = ','.join([f"{i:.2f}" for i in timeseries[ts][::]])
         prompt += f"{cur_ts}" + prompt_list[ts + 1]
 
     messages = [
