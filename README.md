@@ -19,13 +19,14 @@
   <a href="https://lianhui.ucsd.edu/">Lianhui Qin</a><sup>3</sup>,
   <a href="https://furong-huang.com/">Furong Huang</a><sup>1</sup>,
   <a href="https://binhu7.github.io/">Bin Hu</a><sup>2</sup>, 
-  <a href="https://tianyizhou.github.io/">Tianyi Zhou</a><sup></sup>
+  <a href="https://tianyizhou.github.io/">Tianyi Zhou</a><sup>4</sup>
 </p>
 
 <p align="center">
   <sup>1</sup>University of Maryland, College Park &nbsp;
   <sup>2</sup>University of Illinois Urbana-Champaign &nbsp;
   <sup>3</sup>University of California, San Diego
+  <sup>4</sup>Mohamed Bin Zayed University of Artificial Intelligence
 </p>
 
 <img src="figures/main.png" width="100%" />
@@ -67,8 +68,8 @@ TSRBench is more than a benchmark—it’s a **multifaceted, standardized evalua
 
 Download repo
 ```bash
-git clone git@github.com:EmbodiedBench/EmbodiedBench.git
-cd EmbodiedBench
+git clone git@github.com:tianyi-lab/TSRBench.git
+cd TSRBench
 ```
 
 Install VLLM for local inference
