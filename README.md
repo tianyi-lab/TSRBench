@@ -25,7 +25,7 @@
 <p align="center">
   <sup>1</sup>University of Maryland, College Park &nbsp;
   <sup>2</sup>University of Illinois Urbana-Champaign &nbsp;
-  <sup>3</sup>University of California, San Diego
+  <sup>3</sup>University of California, San Diego &nbsp;
   <sup>4</sup>Mohamed Bin Zayed University of Artificial Intelligence
 </p>
 
