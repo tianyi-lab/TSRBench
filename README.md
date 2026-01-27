@@ -111,12 +111,13 @@ You could add more models in the *.sh files
 
 ## Citation
 ```
-@inproceedings{
-yang2025embodiedbench,
-title={EmbodiedBench: Comprehensive Benchmarking Multi-modal Large Language Models for Vision-Driven Embodied Agents},
-author={Rui Yang and Hanyang Chen and Junyu Zhang and Mark Zhao and Cheng Qian and Kangrui Wang and Qineng Wang and Teja Venkat Koripella and Marziyeh Movahedi and Manling Li and Heng Ji and Huan Zhang and Tong Zhang},
-booktitle={Forty-second International Conference on Machine Learning},
-year={2025},
-url={https://openreview.net/forum?id=DgGF2LEBPS}
+@misc{yu2026tsrbenchcomprehensivemultitaskmultimodal,
+      title={TSRBench: A Comprehensive Multi-task Multi-modal Time Series Reasoning Benchmark for Generalist Models}, 
+      author={Fangxu Yu and Xingang Guo and Lingzhi Yuan and Haoqiang Kang and Hongyu Zhao and Lianhui Qin and Furong Huang and Bin Hu and Tianyi Zhou},
+      year={2026},
+      eprint={2601.18744},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI},
+      url={https://arxiv.org/abs/2601.18744}, 
 }
 ```
