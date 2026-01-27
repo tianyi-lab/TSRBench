@@ -53,7 +53,7 @@ TSRBench is more than a benchmark—it’s a **multifaceted, standardized evalua
 
 | Benchmark                         | Multi-Dom. | # Tasks | # Questions | Multivariate | Perception | Reasoning | Prediction | Decision  | Modality      |
 | --------------------------------- | ---------- | ------- | ----------- | ------------ | ----- | ----- | ----- | ----- | ------------- |
-| TimeMMD         | ✅          | 1       | 16K         | ❌            | ❌     | ❌     | ✅     | ❌     | T             |
+| TimeMMD         | ✅          | 1       | 16K         | ✅           | ❌     | ❌     | ✅     | ❌     | T             |
 | CiK        | ✅          | 1       | 0.3K        | ❌            | ❌     | ❌     | ✅     | ❌     | T             |
 | TimeSeriesExam  | ❌          | 5       | 0.7K        | ❌            | ✅     | ❌     | ❌     | ❌     | T, V          |
 | MTBench       | ✅          | 4       | 2.4K        | ❌            | ❌     | ✅     | ❌     | ❌     | T             |
