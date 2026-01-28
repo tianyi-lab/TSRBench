@@ -11,7 +11,7 @@
 </p>
 
 <p align="center">
-  <a href="https://yangrui2015.github.io/">Fangxu Yu</a><sup>1</sup>, 
+  <a href="https://yu-fangxu.github.io/">Fangxu Yu</a><sup>1</sup>, 
   <a href="https://sites.google.com/view/guoxingang">Xingang Guo</a><sup>2</sup>, 
   <a href="https://lingzhiyxp.github.io/">Lingzhi Yuan</a><sup>1</sup>, 
   <a href="https://mk322.github.io/">Haoqiang Kang</a><sup>3</sup>,
