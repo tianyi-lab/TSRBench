@@ -111,13 +111,10 @@ You could add more models in the *.sh files
 
 ## Citation
 ```
-@misc{yu2026tsrbenchcomprehensivemultitaskmultimodal,
-      title={TSRBench: A Comprehensive Multi-task Multi-modal Time Series Reasoning Benchmark for Generalist Models}, 
-      author={Fangxu Yu and Xingang Guo and Lingzhi Yuan and Haoqiang Kang and Hongyu Zhao and Lianhui Qin and Furong Huang and Bin Hu and Tianyi Zhou},
-      year={2026},
-      eprint={2601.18744},
-      archivePrefix={arXiv},
-      primaryClass={cs.AI},
-      url={https://arxiv.org/abs/2601.18744}, 
+@article{yu2026tsrbench,
+  title={TSRBench: A Comprehensive Multi-task Multi-modal Time Series Reasoning Benchmark for Generalist Models},
+  author={Yu, Fangxu and Guo, Xingang and Yuan, Lingzhi and Kang, Haoqiang and Zhao, Hongyu and Qin, Lianhui and Huang, Furong and Hu, Bin and Zhou, Tianyi},
+  journal={arXiv preprint arXiv:2601.18744},
+  year={2026}
 }
 ```
