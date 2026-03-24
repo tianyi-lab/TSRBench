@@ -12,11 +12,11 @@
 set -e
 
 # ──────────────── User Config (edit here) ────────────────
-MODEL_PATH="${MODEL_PATH:-/data/fangxu/chatts}"       # ChatTS checkpoint
+MODEL_PATH="${MODEL_PATH:-./chatts_ckpt}"              # ChatTS checkpoint
 MODEL_NAME="${MODEL_NAME:-chatts}"                     # Short name for output dirs
 DATASET_DIR="${DATASET_DIR:-evaluation/dataset}"       # Where .jsonl files live
 OUTPUT_DIR="${OUTPUT_DIR:-results}"                     # Where results are saved
-GPUS="${GPUS:-6,7}"                                    # Comma-separated GPU IDs
+GPUS="${GPUS:-0,1}"                                    # Comma-separated GPU IDs
 MASTER_PORT="${MASTER_PORT:-12345}"                     # DeepSpeed master port
 # ─────────────────────────────────────────────────────────
 

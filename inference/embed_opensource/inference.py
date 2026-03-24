@@ -6,7 +6,7 @@ benchmarks using DeepSpeed for multi-GPU inference.
 
 Usage:
     deepspeed --master_port 12345 tsrbench_chatts/inference.py \
-        --model_path /data/fangxu/chatts \
+        --model_path /path/to/chatts \
         --dataset_dir evaluation/dataset \
         --dataset perception \
         --output_dir results
