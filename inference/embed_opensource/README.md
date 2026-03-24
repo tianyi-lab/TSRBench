@@ -1,13 +1,13 @@
-# ChatTS × TSRBench Inference
+# ChatTS Inference
 
-Run [ChatTS](https://github.com/ChatTS) (time-series MLLM) on the [TSRBench](https://github.com/tianyi-lab/TSRBench) benchmark (12 tasks, 4 categories, ~4K problems).
+Run [ChatTS](https://github.com/ChatTS) (time-series MLLM) on the [TSRBench](https://github.com/tianyi-lab/TSRBench) benchmark (15 tasks, 4 categories, ~4K problems).
 
 ## Quick Start
 
 ```bash
 cd /home/fangxu/ChatTS
 
-# Run all 12 tasks with default settings
+# Run all 15 tasks with default settings
 bash tsrbench_chatts/run.sh
 
 # Or override any setting via environment variables
@@ -15,7 +15,7 @@ MODEL_PATH=/data/fangxu/chatts  MODEL_NAME=chatts  GPUS=6,7  bash tsrbench_chatt
 ```
 
 This will:
-1. Run inference on all 12 TSRBench datasets
+1. Run inference on all 15 TSRBench datasets
 2. Automatically evaluate and print per-task accuracy
 
 ## Run a Single Dataset
@@ -54,23 +54,6 @@ python tsrbench_chatts/evaluate.py \
 | `GPUS`             | `6,7`                  | GPU IDs (env var for `run.sh`)     |
 | `MASTER_PORT`      | `12345`                | DeepSpeed master port              |
 
-## TSRBench Tasks (12 total)
-
-| Category   | Dataset                        | Samples |
-|------------|--------------------------------|---------|
-| Perception | `perception`                   | 700     |
-| Reasoning  | `causal_reasoning`             | 300     |
-| Reasoning  | `inductive_reasoning`          | 100     |
-| Reasoning  | `math_reasoning`               | 400     |
-| Reasoning  | `temporal_relation_reasoning`  | 160     |
-| Reasoning  | `etiological_reasoning`        | 350     |
-| Reasoning  | `abductive_reasoning`          | 150     |
-| Reasoning  | `deductive_reasoning`          | 250     |
-| Prediction | `time_series_forecasting`      | 720     |
-| Prediction | `event_forecast`               | 360     |
-| Decision   | `pattern_decision`             | 335     |
-| Decision   | `quantitative_decision`        | 300     |
-
 ## Output Structure
 
 ```
@@ -101,7 +84,7 @@ Each answer entry:
 ```
 tsrbench_chatts/
 ├── README.md            # This file
-├── run.sh               # One-click: inference all 12 tasks + evaluate
+├── run.sh               # One-click: inference all 15 tasks + evaluate
 ├── inference.py         # DeepSpeed inference script
 ├── evaluate.py          # Compute accuracy from results
 └── encoding_utils.py    # Time series encoding (re-exports from chatts/)
